@@ -1,0 +1,92 @@
+body {
+    background-color: #b2dcf0;
+}
+
+
+/*changes mainContainer on all pages*/
+.mainContainer {
+    padding: 15px;
+    display: flex;
+    flex: 1 1 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family:'Oswald', sans-serif;
+    font-size: 20px;
+}
+/*changes geach groupie event on all pages*/
+.groupie {
+    color: white;
+    background-color: rgb(68, 122, 192);
+    padding: 20px;
+    margin: 10px;
+    width: 40%;
+    text-align: center;
+    border-width: 10px;
+    border-color: black;
+}
+
+/*changes welcome h1 on index.html*/
+.welcome h1 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 75px;
+    margin: 0;
+    text-decoration: underline;
+    padding-bottom: 15px;
+}
+
+/*changes welcome p on index.html*/
+.welcome p {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+}
+
+/*changes footer on all pages*/
+.footer {
+    background: #23b7fc; 
+    overflow: hidden;
+    padding: 0;
+    padding-bottom: 20px;
+    font-family:'Oswald', sans-serif;
+    font-size: 20px;
+}
+  
+  /*changes footer on all pages*/
+.footer h3{
+    font-size: 40px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+  /*changes footer on all pages*/
+.footer p {
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+/*changes footer on all pages*/
+.footer a {
+    color: black;
+}
+
+/*changes the form on the create.html page*/
+.create {
+    text-align: center;
+    padding-top: 40px;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.signup {
+    text-align: center;
+    padding-top: 40px;
+    color: black;
+    padding-bottom: 20px;
+}
+  

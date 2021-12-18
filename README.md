@@ -1,0 +1,23 @@
+Hello! Welcome to my project, Groupie.
+Groupie, is a website that facilitates student connections by allowing student to easily find other groups of students. Whether one is struggling on a PSET, needs a peer review for a paper, or simply wants to learn a new skill, Groupie is a place that they can turn to. On the main page of the website, there are a plethora of student groups focusing on a variety of subjects from academic finals to cake baking. Each Groupie event represents a group of students that are eager to work together, socialize and have fun. Even more fantastic, Groupie allows ALL users to not only sign-up to attend Groupie events on the website, but to create their own Groupie events too! The beauty of Groupie is that if one can't find what they're looking for, they can simply make it themselves!
+
+To throuhgoughly explain my project, I will first explain how a user can navigate the website. Then, I will explain how developers can compile and configure the project.
+
+USERS
+When users are brought to the main page of the Groupie website, they are greeted with an introduction in the middle of the page. "Welcome to Groupie" in bold, is where one can read if they have never visited the website. A little bit lower on the main page is the Groupie Events. Each Groupie event has a topic, descirption, date, lcoation, start time, end time and number of attendees. These allow user to make informed choices concerning whether they wish to sign-up to attend the Groupie event or not. If a user decides they want to attend a specific event, they can use their mouse to click on the "Sign-up for Groupie Event" button, which will bring them to a new page where they can sign up. Before a user clicks this button, though, they must make a mental note of the topic as this information will be used on the signup page. After the user clicks the button, the webpage they will be brought to will be a form that requests the user's email and the Groupie topic they wish to sign up for. Once users enter their infomration, they can click the blue, "Sign-Up for your Groupie!" button. After clicking this button, an email from the Groupie email will be sent to the email entered in the form containing the topic, description, location, start time, and end time of the Groupie event. Furthmore, it will provide the user will the name and email of the initial  reator of the Groupie in case the user has any questions for them. Users can also use the search bar at the top left of the website to search for Groupie events via its topic.
+
+If a user does not find a Groupie event that they are interested in, they switch their focus to the top right of the webpage where, in the navigation bar, there will be a button to "Create a Groupie." As the name of the button suggests, once users click it they are brought to a webpage that contains a form that allows them to create and register their own Groupie event in the Groupie database. The form on this webpage asks the user for their name and email, as well as the Groupie topic, description, date, location on campus that it will take palce, start time and end time. After users enter their information, they can then click on the blue "Create your Groupie!" button below the form, which will allow them to register their Groupie event, provided that the topic they provide is not the exact same as an already registered Groupie event. All they have to do after this is wait. As stated before, the list of Groupie events on the main page of the webstie includes an attribute for each Groupie called, "attendees." This allows users to see how many others have signed up for a Groupie event. Additonally, it works as a mechanism to inform Groupie creators of how many people have signed up for their own Groupie event, as well.
+
+
+DEVELOPERS
+Outside/third party modules are needed to run this application in addition to the python lanugage that you must have downloaded.
+To compile and run this application, ensure that you have pip installed as each of the modules needed are downloaded via pip.
+Once in the project directory in the terminal, follow these steps:
+1) type "pip install SQLAlchemy" in the terminal and press enter
+2) type "pip install -U Flask-SQLAlchemy" in the terminal and press enter
+3) activate the virtual environment by typing "source env/bin/activate" and pressing enter
+4) run the command "export FLASK_APP=env"
+5) run the command "export FLASK_ENV=development"
+6) run the command "flask run" to finally start the flask application. Then simply follow the link in the terminal provided that runs the application by holding the commond key (if on mac) or control key (if on windows) and clicking on the link.
+
+YouTube Link: https://youtu.be/BcHUsoaNKqM
